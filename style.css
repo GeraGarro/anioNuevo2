@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+
+body{
+    background: url(new-years-day-7661095_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}   
+
+.contenedor{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    right: 100px;
+    bottom: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor h2{
+    text-align: center;
+    font-size: 18rem;
+    line-height: 12rem;
+    color: aliceblue;
+    margin-top: -80px;
+
+}
+
+.contenedor h2 span{
+    display: block;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 5rem;
+
+}
+
+.contador{
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.contador div{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    color: aliceblue;
+    margin: 0 20px;
+    font-size: 5rem;
+    border-radius: 75%;
+    box-shadow: 1px 1px 1px 1px blue;
+
+}
+
+.contador div::before{
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    border-bottom: 5px solid;
+    color: rgb(65, 150, 224);
+    font-size: 3rem;
+    line-height: 35px;
+    font-weight: 300;
+
+}
+
+.contador #dia::before{
+    content: 'DIA';
+
+}
+.contador #hora::before{
+    content: 'HORA';
+    
+}
+.contador #min::before{
+    content: 'Minutos';
+    
+}
+
+.contador #seg::before{
+    content: 'Segundos';
+    
+}
+
+
