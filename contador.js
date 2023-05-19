@@ -1,4 +1,4 @@
-var finContar= new Date('Jan 1, 2023 00:00:00').getTime();
+var finContar= new Date('Jan 1, 2024 00:00:00').getTime();
 
 
 function nuevoAño(){
